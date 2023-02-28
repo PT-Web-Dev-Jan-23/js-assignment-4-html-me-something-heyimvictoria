@@ -1,1 +1,32 @@
-/* Write your CSS here! */
+html {
+    scroll-behavior: smooth;
+    max-width: 100%;
+    border: 6px solid;
+    border-image-source: linear-gradient(90deg,#f7c9c9,#fa709a 70%);
+    border-image-slice: 1;
+}
+
+p.funParagraph{
+    color: forestgreen;
+}
+
+body {
+    font-family: 'Playfair Display', serif;
+    font-size: medium;
+    font-weight: 400;
+    margin: 8px;
+    display: inline;
+}
+
+#mainHeading {
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    color: red;
+    font-weight: 800;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    /* margin-right: 150px; */
+    margin-left: 200px;
+    height: 200px;
+    width: 50%;
+}
